@@ -2,8 +2,8 @@
 let canvas;
 
 function setup(){
-	canvas = createCanvas(320, 320);
-	canvas.center();
+	canvas = createCanvas(350, floor(350 * (16/9)));
+	canvas.style("display", "block");
 }
 
 function draw(){
